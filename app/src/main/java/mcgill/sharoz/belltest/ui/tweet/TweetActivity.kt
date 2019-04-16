@@ -164,6 +164,9 @@ class TweetActivity : AppCompatActivity(), TweetContract.View, View.OnClickListe
                 .into(avatar)
         }
 
+        tweet?.favorited?.let { isFavorited = it }
+        tweet?.retweeted?.let { isRetweeted = it }
+
         checkLoginSession()
     }
 
