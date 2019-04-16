@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8dp"
+        card_view:cardBackgroundColor="@color/white">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imageImg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@color/black"
+                tools:srcCompat="@tools:sample/avatars"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:id="@+id/handleImg"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_18sp"
+                tools:text="handle"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:layout_marginStart="@dimen/margin_8dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/imageImg"/>
+
+        <TextView
+                android:id="@+id/textImg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                tools:text="Tweet text"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:paddingBottom="@dimen/padding_8dp"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/handleImg"
+                card_view:layout_constraintStart_toStartOf="@+id/handleImg" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

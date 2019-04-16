@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bell Test</string>
+    <string name="a" translatable="false">\@%1$s</string>
+    <string name="changed">Language changed to English</string>
+    <string name="enter_search_text">Enter search text</string>
+    <string name="close">close</string>
+    <string name="favorite">Favorite</string>
+    <string name="re_tweet">Re-tweet</string>
+    <string name="open_tweet">Open Tweet</string>
+    <string name="language">Language</string>
+    <string name="search">Search</string>
+    <string name="tweet_details">Tweet Details</string>
+    <string name="search_tweets">Search Tweets</string>
+    <string name="loading_data">Loading data…</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="no_tweets_found">No Tweets Found</string>
+    <string name="please_wait">Please wait…</string>
+</resources>

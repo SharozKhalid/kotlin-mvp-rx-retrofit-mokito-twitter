@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Test de Bell</string>
+    <string name="enter_search_text">Entrez le texte de recherche</string>
+    <string name="close">Fermer</string>
+    <string name="favorite">favori</string>
+    <string name="re_tweet">Re-tweet</string>
+    <string name="open_tweet">Ouvrir le Tweet</string>
+    <string name="language">La langue</string>
+    <string name="search">Chercher</string>
+    <string name="changed">Langue changée en Français</string>
+    <string name="tweet_details">Tweet Détails</string>
+    <string name="search_tweets">Recherche tweets</string>
+    <string name="loading_data">Chargement des données…</string>
+    <string name="permission_denied">Permission refusée</string>
+    <string name="no_tweets_found">Aucun tweets trouvé</string>
+    <string name="please_wait">S\'il vous plaît, attendez…</string>
+</resources>
